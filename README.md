@@ -46,10 +46,10 @@ where:
 * PSNR < 20 dB: Poor quality
 
 ### SSIM (Structural Similarity Index Measure)
-SSIM compares the structural information between the original and denoised images. Unlike PSNR, which considers pixel-wise differences, SSIM evaluates image similarity based on luminance, contrast, and structure.
+SSIM compares the structural information between the original and denoised images. Unlike PSNR, which considers pixel-wise differences, SSIM evaluates image similarity based on luminance, contrast, and structure.<br>
  **Range:** 0 to 1
-* 1 indicates perfect similarity
-* Values closer to 1 are better
+* 1 indicates perfect similarity.
+* Values closer to 1 are better.<br>
 SSIM is especially useful when assessing how well details like edges and textures are preserved after noise removal.
 
 ## Example: Noise Removal in Traffic Surveillance Video
