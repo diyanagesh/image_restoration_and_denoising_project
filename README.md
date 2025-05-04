@@ -37,12 +37,12 @@ PSNR is a standard metric used to measure the quality of a restored or compresse
 **Formula:**
 -PSNR = 10 * log10(MAX² / MSE)   
 where:
--MAX is the maximum possible pixel value of the image (e.g., 255 for 8-bit images)
--MSE is the Mean Squared Error between the original and processed image
+MAX is the maximum possible pixel value of the image (e.g., 255 for 8-bit images)
+MSE is the Mean Squared Error between the original and processed image
 
 **Interpretation:**
--PSNR > 30 dB: Good quality
--PSNR < 20 dB: Poor quality
+PSNR > 30 dB: Good quality
+PSNR < 20 dB: Poor quality
 
 ### SSIM (Structural Similarity Index Measure)
 SSIM compares the structural information between the original and denoised images. Unlike PSNR, which considers pixel-wise differences, SSIM evaluates image similarity based on luminance, contrast, and structure.
