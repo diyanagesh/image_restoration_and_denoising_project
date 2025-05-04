@@ -39,6 +39,7 @@ PSNR is a standard metric used to measure the quality of a restored or compresse
 where:
 -MAX is the maximum possible pixel value of the image (e.g., 255 for 8-bit images)
 -MSE is the Mean Squared Error between the original and processed image
+
 **Interpretation:**
 -PSNR > 30 dB: Good quality
 -PSNR < 20 dB: Poor quality
@@ -50,7 +51,7 @@ SSIM compares the structural information between the original and denoised image
 -Values closer to 1 are better
 SSIM is especially useful when assessing how well details like edges and textures are preserved after noise removal.
 
-### Example: Noise Removal in Traffic Surveillance Video
+## Example: Noise Removal in Traffic Surveillance Video
 Imagine you have a CCTV feed with poor lighting and high noise due to rain. The background noise makes it difficult for vehicle detection algorithms to identify vehicles properly. Using Bilateral Filtering can smooth out the noise in the image, while preserving the edges of vehicles, allowing the system to better detect and track moving vehicles in the video.
 
 Alternatively, Kalman Filtering can be used in a real-time traffic monitoring system to help track vehicles across frames, reducing the impact of noise from frame to frame and improving the accuracy of vehicle detection.
