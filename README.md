@@ -47,10 +47,10 @@ where:
 
 ### SSIM (Structural Similarity Index Measure)
 SSIM compares the structural information between the original and denoised images. Unlike PSNR, which considers pixel-wise differences, SSIM evaluates image similarity based on luminance, contrast, and structure.
-- **Range:** 0 to 1
+ **Range:** 0 to 1
 * 1 indicates perfect similarity
 * Values closer to 1 are better
-- SSIM is especially useful when assessing how well details like edges and textures are preserved after noise removal.
+SSIM is especially useful when assessing how well details like edges and textures are preserved after noise removal.
 
 ## Example: Noise Removal in Traffic Surveillance Video
 Imagine you have a CCTV feed with poor lighting and high noise due to rain. The background noise makes it difficult for vehicle detection algorithms to identify vehicles properly. Using Bilateral Filtering can smooth out the noise in the image, while preserving the edges of vehicles, allowing the system to better detect and track moving vehicles in the video.
